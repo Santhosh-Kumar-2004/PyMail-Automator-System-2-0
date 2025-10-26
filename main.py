@@ -11,8 +11,8 @@ if __name__ == "__main__":
     main()
 
 if __name__ == "__main__":
-    sender = "santhoshkumarv12136@gmail.com"
-    password = "Sample"
+    sender = os.getenv("SENDER_EMAIL")
+    password = os.getenv("SENDER_PASSWORD")
     receiver = "santhoshkumar212004@gmail.com"
 
     subject = "Test Email from PyMail-Automator 🚀"
