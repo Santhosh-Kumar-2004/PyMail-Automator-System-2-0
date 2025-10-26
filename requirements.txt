@@ -1,0 +1,7 @@
+smtplib
+ssl
+pandas
+python-dotenv
+jinja2
+schedule
+tkinter
