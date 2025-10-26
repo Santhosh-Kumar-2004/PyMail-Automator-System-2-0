@@ -10,7 +10,7 @@ This document describes the complete 12-phase roadmap of **PyMail Automator**, i
 
 ## **Phase 1: Basic Email Sending**
 - Use `smtplib` and `ssl` to send a basic email.
-- Add plain-text and HTML support.
+- Add plain-text and HTML support. With HTML we make colours and all
 
 ---
 
