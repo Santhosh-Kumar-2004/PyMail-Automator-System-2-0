@@ -21,7 +21,8 @@ if __name__ == "__main__":
     html = """
     <html>
         <body>
-            <h2 style="color:green;">PyMail-Automator Test</h2>
+            <h1 style="color:red;">Santhosh's PyMail Test</h1>
+            <h2 style="color:green;">PyMail-Automator</h2>
             <p>This is a <b>test email</b> with HTML support!</p>
         </body>
     </html>
