@@ -49,3 +49,10 @@ docs/ → Documentation files
 
 4. Run the project:
     python main.py
+
+---
+
+## 🗓️ Development Phases
+
+The project is divided into 12 structured phases, each focusing on a major functionality.
+See the full plan in docs/Phase_Structure.md
