@@ -6,6 +6,7 @@ from core.mailer import send_email_with_attachments
 
 load_dotenv()
 
+# sample root function which shows the python runnning state
 def main(): # basic main func
     print("🚀 PyMail Automator - Starting up...")
 
