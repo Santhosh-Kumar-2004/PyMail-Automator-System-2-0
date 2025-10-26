@@ -1,0 +1,21 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual Environment ---
+venv/
+env/
+
+# --- Environment Variables ---
+.env
+
+# --- Logs and Data ---
+logs/
+data/sent_history.csv
+
+# --- IDE and OS Files ---
+.vscode/
+.DS_Store
+Thumbs.db
