@@ -3,6 +3,7 @@ from core.mailer import send_basic_email
 from dotenv import load_dotenv
 import os
 
+load_dotenv()
 
 def main(): # basic main func
     print("🚀 PyMail Automator - Starting up...")
