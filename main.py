@@ -57,7 +57,7 @@ def sending_with_files():
     attachments = [
         # "sample.pdf",       
         # "example.jpg",
-        
+        "data.txt"
 
     ]
 
