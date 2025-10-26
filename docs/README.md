@@ -16,3 +16,10 @@ It can send personalized, templated, and scheduled emails in bulk with attachmen
 - Optional enhancements like retry, history tracking, and progress bar
 
 ---
+
+## 🧩 Tech Stack
+- **Language:** Python
+- **Libraries:** smtplib, ssl, pandas, dotenv, jinja2, schedule, tkinter, logging, csv, os, mimetypes, time
+- **IDE:** Visual Studio Code
+
+---
