@@ -10,8 +10,8 @@ load_dotenv()
 def main(): # basic main func
     print("🚀 PyMail Automator - Starting up...")
 
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
 
 def basic_email_sender():
     if __name__ == "__main__":
