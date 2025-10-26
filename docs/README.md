@@ -23,3 +23,5 @@ It can send personalized, templated, and scheduled emails in bulk with attachmen
 - **IDE:** Visual Studio Code
 
 ---
+
+## 📂 Folder Structure
