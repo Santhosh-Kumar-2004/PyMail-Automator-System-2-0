@@ -64,3 +64,9 @@ See the full plan in docs/Phase_Structure.md
 # 👤 Santhosh Kumar
 Python Developer & Founder of [Fractls.org]
 📧 [santhoshkumarv12136@gmail.com]
+
+---
+
+## 🏁 License
+    ### This project is open-source and free to use.
+    Use it on your Own, even for your Business too.
