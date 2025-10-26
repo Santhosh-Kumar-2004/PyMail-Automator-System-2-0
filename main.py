@@ -14,6 +14,9 @@ def main(): # basic main func
 # The first function added on Phase 1
 def basic_email_sender():
     if __name__ == "__main__":
+
+        load_dotenv()
+        
         sender = os.getenv("SENDER_EMAIL")
         password = os.getenv("SENDER_PASSWORD")
         receiver = os.getenv("RECEIVER_EMAIL")
@@ -66,7 +69,7 @@ def sending_with_files():
 
 
     
-# if __name__ == "__main__":
-#     main()
+if __name__ == "__main__":
+    main()
     # basic_email_sender()
     # send_email_with_attachments()
