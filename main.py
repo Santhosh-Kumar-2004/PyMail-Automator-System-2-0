@@ -34,7 +34,32 @@ def basic_email_sender():
 
     
 def sending_with_files():
-    
+    print("🚀 PyMail Automator - Sending email with attachments...")
+    load_dotenv()
+
+    sender = os.getenv("SENDER_EMAIL")
+    password = os.getenv("SENDER_PASSWORD")
+    receiver = os.getenv("RECEIVER_EMAIL")
+
+    subject = "Test Email with Attachments 📎"
+    text = "This email includes one or more attachments."
+    html = """
+    <html>
+        <body>
+            <h3>PyMail Automator - Attachment Test</h3>
+            <p>This email contains attachments. Please check below.</p>
+        </body>
+    </html>
+    """
+
+    # ✅ Add one or more attachments
+    attachments = [
+        "sample.pdf",       # make sure this file exists
+        "example.jpg"
+    ]
+
+    send_email_with_attachments(sender, password, receiver, subject, text, html, attachments)
+
 
     
 if __name__ == "__main__":
