@@ -45,3 +45,4 @@ docs/ → Documentation files
     pip install -r requirements.txt
 
 3. Set up your .env file:
+    cp .env.example .env
