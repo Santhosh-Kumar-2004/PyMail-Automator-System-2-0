@@ -1,7 +1,7 @@
 # Main File
-from core.mailer import send_basic_email
 from dotenv import load_dotenv
 import os
+from core.mailer import send_basic_email
 from core.mailer import send_email_with_attachments
 
 load_dotenv()
@@ -16,7 +16,7 @@ def basic_email_sender():
     if __name__ == "__main__":
 
         load_dotenv()
-        
+
         sender = os.getenv("SENDER_EMAIL")
         password = os.getenv("SENDER_PASSWORD")
         receiver = os.getenv("RECEIVER_EMAIL")
