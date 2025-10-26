@@ -11,6 +11,8 @@ def main(): # basic main func
     print("🚀 PyMail Automator - Starting up...")
 
 
+
+
 # The first function added on Phase 1
 def basic_email_sender():
     if __name__ == "__main__":
@@ -32,10 +34,16 @@ def basic_email_sender():
             </body>
         </html>
         """
+        print("Completed the Email sending operation!")
 
         send_basic_email(sender, password, receiver, subject, text, html)
 
+if __name__ == "__main__":
+    main()
+    basic_email_sender()
+    # send_email_with_attachments()
 
+    
 # The Second function added on Phase 2   
 def sending_with_files():
     # if __name__ == "__main__":
@@ -69,7 +77,3 @@ def sending_with_files():
 
 
     
-if __name__ == "__main__":
-    main()
-    # basic_email_sender()
-    # send_email_with_attachments()
