@@ -7,3 +7,21 @@ def main(): # basic main func
 
 if __name__ == "__main__":
     main()
+
+if __name__ == "__main__":
+    sender = "your_email@gmail.com"
+    password = "your_app_password"
+    receiver = "receiver_email@gmail.com"
+
+    subject = "Test Email from PyMail-Automator 🚀"
+    text = "This is a plain text version of the email."
+    html = """
+    <html>
+        <body>
+            <h2 style="color:green;">PyMail-Automator Test</h2>
+            <p>This is a <b>test email</b> with HTML support!</p>
+        </body>
+    </html>
+    """
+
+    send_basic_email(sender, password, receiver, subject, text, html)
