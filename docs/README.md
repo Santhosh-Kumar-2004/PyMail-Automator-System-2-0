@@ -56,3 +56,11 @@ docs/ → Documentation files
 
 The project is divided into 12 structured phases, each focusing on a major functionality.
 See the full plan in docs/Phase_Structure.md
+
+---
+
+## 💡 Author
+
+# 👤 Santhosh Kumar
+Python Developer & Founder of [Your Business Name]
+📧 [santhoshkumarv12136@gmail.com]
