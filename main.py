@@ -34,3 +34,4 @@ def basic_email_sender():
     
 if __name__ == "__main__":
     main()
+    basic_email_sender()
