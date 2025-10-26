@@ -62,5 +62,5 @@ See the full plan in docs/Phase_Structure.md
 ## 💡 Author
 
 # 👤 Santhosh Kumar
-Python Developer & Founder of [Your Business Name]
+Python Developer & Founder of [Fractls.org]
 📧 [santhoshkumarv12136@gmail.com]
