@@ -11,6 +11,7 @@ def main(): # basic main func
     print("🚀 PyMail Automator - Starting up...")
 
 
+# The first function added on Phase 1
 def basic_email_sender():
     if __name__ == "__main__":
         sender = os.getenv("SENDER_EMAIL")
@@ -30,6 +31,10 @@ def basic_email_sender():
         """
 
         send_basic_email(sender, password, receiver, subject, text, html)
+
+    
+def sending_with_files():
+    
 
     
 if __name__ == "__main__":
