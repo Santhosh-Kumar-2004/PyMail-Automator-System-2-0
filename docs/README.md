@@ -25,3 +25,10 @@ It can send personalized, templated, and scheduled emails in bulk with attachmen
 ---
 
 ## 📂 Folder Structure
+
+core/ → Backend logic
+gui/ → Tkinter GUI
+templates/ → HTML email templates
+data/ → CSV and sent history
+logs/ → Log files
+docs/ → Documentation files
