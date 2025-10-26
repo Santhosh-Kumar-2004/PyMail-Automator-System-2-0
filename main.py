@@ -2,6 +2,7 @@
 from core.mailer import send_basic_email
 from dotenv import load_dotenv
 import os
+from core.mailer import send_email_with_attachments
 
 load_dotenv()
 
