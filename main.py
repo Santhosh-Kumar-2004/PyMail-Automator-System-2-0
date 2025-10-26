@@ -13,7 +13,7 @@ def main(): # basic main func
 if __name__ == "__main__":
     sender = os.getenv("SENDER_EMAIL")
     password = os.getenv("SENDER_PASSWORD")
-    receiver = os.getenv("RECIEVER_EMAIL")
+    receiver = os.getenv("RECEIVER_EMAIL")
 
     subject = "Test Email from PyMail-Automator 🚀"
     text = "This is a plain text version of the email."
