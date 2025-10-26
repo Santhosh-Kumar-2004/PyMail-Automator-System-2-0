@@ -1,6 +1,7 @@
 import smtplib
 import ssl
 from email.message import EmailMessage
+import os
 
 def send_basic_email(sender_email, sender_password, receiver_email, subject, plain_text, html_content=None):
     # Create the email
