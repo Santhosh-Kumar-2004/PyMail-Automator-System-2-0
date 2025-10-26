@@ -5,6 +5,8 @@ import os
 from dotenv import load_dotenv
 import mimetypes
 
+
+# The function created on Phase 1
 def send_basic_email(sender_email, sender_password, receiver_email, subject, plain_text, html_content=None):
     # Create the email
     msg = EmailMessage()
