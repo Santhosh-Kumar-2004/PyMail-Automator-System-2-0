@@ -68,4 +68,4 @@ def sending_with_files():
 if __name__ == "__main__":
     main()
     # basic_email_sender()
-    send_email_with_attachments()
+    # send_email_with_attachments()
