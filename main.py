@@ -9,9 +9,9 @@ if __name__ == "__main__":
     main()
 
 if __name__ == "__main__":
-    sender = "your_email@gmail.com"
-    password = "your_app_password"
-    receiver = "receiver_email@gmail.com"
+    sender = "santhoshkumarv12136@gmail.com"
+    password = "Sample"
+    receiver = "santhoshkumar212004@gmail.com"
 
     subject = "Test Email from PyMail-Automator 🚀"
     text = "This is a plain text version of the email."
