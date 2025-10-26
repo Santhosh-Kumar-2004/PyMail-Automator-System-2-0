@@ -46,3 +46,6 @@ docs/ → Documentation files
 
 3. Set up your .env file:
     cp .env.example .env
+
+4. Run the project:
+    python main.py
