@@ -32,7 +32,8 @@ def basic_email_sender():
 
         send_basic_email(sender, password, receiver, subject, text, html)
 
-    
+
+# The Second function added on Phase 2   
 def sending_with_files():
     print("🚀 PyMail Automator - Sending email with attachments...")
     load_dotenv()
