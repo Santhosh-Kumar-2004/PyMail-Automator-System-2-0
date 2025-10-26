@@ -1,5 +1,7 @@
 # Main File
 from core.mailer import send_basic_email
+from dotenv import load_dotenv
+import os
 
 
 def main(): # basic main func
