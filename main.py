@@ -1,6 +1,6 @@
 # Main File
 
-def main():
+def main(): # basic main func
     print("🚀 PyMail Automator - Starting up...")
 
 if __name__ == "__main__":
