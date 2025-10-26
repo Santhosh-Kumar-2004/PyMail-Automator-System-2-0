@@ -2,7 +2,7 @@ import smtplib
 import ssl
 from email.message import EmailMessage
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import mimetypes
 
 
@@ -28,7 +28,7 @@ def send_basic_email(sender_email, sender_password, receiver_email, subject, pla
 
 
 def send_email_with_attachments(sender_email, sender_password, receiver_email, subject, plain_text, html_content=None, attachments=None):
-    
+
     msg = EmailMessage()
     msg["From"] = sender_email
     msg["To"] = receiver_email
