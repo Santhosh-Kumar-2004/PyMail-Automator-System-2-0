@@ -55,8 +55,10 @@ def sending_with_files():
 
     # ✅ Add one or more attachments
     attachments = [
-        "sample.pdf",       # make sure this file exists
-        "example.jpg"
+        # "sample.pdf",       
+        # "example.jpg",
+        
+
     ]
 
     send_email_with_attachments(sender, password, receiver, subject, text, html, attachments)
