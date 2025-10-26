@@ -43,3 +43,5 @@ docs/ → Documentation files
 
 2. Install dependencies:
     pip install -r requirements.txt
+
+3. Set up your .env file:
