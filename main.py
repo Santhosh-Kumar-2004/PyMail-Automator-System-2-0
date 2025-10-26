@@ -49,7 +49,7 @@ def sending_with_files():
 
         sender = os.getenv("SENDER_EMAIL")
         password = os.getenv("SENDER_PASSWORD")
-        receiver = os.getenv("RECEIVER_EMAIL1")
+        receiver = os.getenv("RECEIVER_EMAIL2")
 
         subject = "Test Email with Attachments 📎"
         text = "This email includes one or more attachments."
