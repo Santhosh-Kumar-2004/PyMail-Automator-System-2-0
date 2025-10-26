@@ -40,3 +40,6 @@ docs/ → Documentation files
    ```bash
    git clone https://github.com/<your-username>/PyMail-Automator.git
    cd PyMail-Automator
+
+2. Install dependencies:
+    pip install -r requirements.txt
