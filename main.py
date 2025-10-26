@@ -43,34 +43,37 @@ def basic_email_sender():
 
 # The Second function added on Phase 2   
 def sending_with_files():
-    # if __name__ == "__main__":
-    print("🚀 PyMail Automator - Sending email with attachments...")
-    load_dotenv()
+    if __name__ == "__main__":
+        print("🚀 PyMail Automator - Sending email with attachments...")
+        load_dotenv()
 
-    sender = os.getenv("SENDER_EMAIL")
-    password = os.getenv("SENDER_PASSWORD")
-    receiver = os.getenv("RECEIVER_EMAIL")
+        sender = os.getenv("SENDER_EMAIL")
+        password = os.getenv("SENDER_PASSWORD")
+        receiver = os.getenv("RECEIVER_EMAIL")
 
-    subject = "Test Email with Attachments 📎"
-    text = "This email includes one or more attachments."
-    html = """
-    <html>
-        <body>
-            <h3>PyMail Automator - Attachment Test</h3>
-            <p>This email contains attachments. Please check below.</p>
-        </body>
-    </html>
-    """
+        subject = "Test Email with Attachments 📎"
+        text = "This email includes one or more attachments."
+        html = """
+        <html>
+            <body>
+                <h3>PyMail Automator - Attachment Test</h3>
+                <p>This email contains attachments. Please check below.</p>
+            </body>
+        </html>
+        """
 
-    # ✅ Add one or more attachments
-    attachments = [
-        # "sample.pdf",       
-        # "example.jpg",
-        "data.txt"
+        # ✅ Add one or more attachments
+        attachments = [
+            # "sample.pdf",       
+            # "example.jpg",
+            "data.txt"
 
-    ]
+        ]
 
-    send_email_with_attachments(sender, password, receiver, subject, text, html, attachments)
+        send_email_with_attachments(sender, password, receiver, subject, text, html, attachments)
 
-
+if __name__ == "__main__":
+    main()
+    # basic_email_sender()
+    sending_with_files()
     
