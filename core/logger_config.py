@@ -24,3 +24,5 @@ formatter = logging.Formatter(
     "%(asctime)s | %(levelname)s | %(filename)s:%(lineno)d | %(message)s",
     "%Y-%m-%d %H:%M:%S"
 )
+
+handler.setFormatter(formatter)
