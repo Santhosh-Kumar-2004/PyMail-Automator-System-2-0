@@ -38,7 +38,10 @@ def basic_email_sender():
 
         send_basic_email(sender, password, receiver, subject, text, html)
 
-
+if __name__ == "__main__":
+    main()
+    basic_email_sender()
+    # sending_with_files()
 
 
 # The Second function added on Phase 2   
