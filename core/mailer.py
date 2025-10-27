@@ -2,7 +2,7 @@ import smtplib
 import ssl
 from email.message import EmailMessage
 import os
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 import mimetypes
 
 
