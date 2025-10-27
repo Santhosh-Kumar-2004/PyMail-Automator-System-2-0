@@ -27,6 +27,7 @@ def send_basic_email(sender_email, sender_password, receiver_email, subject, pla
             server.send_message(msg)
 
         print("✅ Email sent successfully!")
+        logger.info(f"Email sent to {receiver_email} | Subject: {subject}")
 
     except smtplib.SMTPAuthenticationError:
         print("❌ Authentication failed! Check your app password.")
