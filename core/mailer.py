@@ -69,8 +69,10 @@ def send_email_with_attachments(sender_email, sender_password, receiver_email, s
 
     # ✅ Send the email securely
     context = ssl.create_default_context()
-    with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
-        server.login(sender_email, sender_password)
-        server.send_message(msg)
 
-    print("✅ Email with attachments sent successfully!")
+    try:
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:
+            server.login(sender_email, sender_password)
+            server.send_message(msg)
+
+        print("✅ Email with attachments sent successfully!")
