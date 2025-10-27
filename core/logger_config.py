@@ -9,3 +9,6 @@ os.makedirs(LOG_DIR, exist_ok=True)
 
 # app.log files path existence...
 LOG_FILE = os.path.join(LOG_DIR, "app.log")
+
+logger = logging.getLogger("PyMailLogger")
+logger.setLevel(logging.INFO)
