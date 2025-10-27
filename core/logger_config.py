@@ -20,3 +20,7 @@ handler = TimedRotatingFileHandler(LOG_FILE, when="midnight", interval=1, backup
 handler.suffix = "%Y-%m-%d"
 
 # Created the log format using Formatter.
+formatter = logging.Formatter(
+    "%(asctime)s | %(levelname)s | %(filename)s:%(lineno)d | %(message)s",
+    "%Y-%m-%d %H:%M:%S"
+)
