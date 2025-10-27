@@ -4,6 +4,7 @@ from email.message import EmailMessage
 import os
 from dotenv import load_dotenv
 import mimetypes
+from core.logger_config import logger 
 
 
 # The function created on Phase 1
