@@ -15,3 +15,4 @@ logger = logging.getLogger("PyMailLogger")
 logger.setLevel(logging.INFO)
 
 handler = TimedRotatingFileHandler(LOG_FILE, when="midnight", interval=1, backupCount=7, encoding="utf-8")
+handler.suffix = "%Y-%m-%d"
