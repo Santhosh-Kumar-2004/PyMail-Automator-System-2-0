@@ -26,3 +26,6 @@ formatter = logging.Formatter(
 )
 
 handler.setFormatter(formatter)
+
+if not logger.hasHandlers():
+    logger.addHandler(handler)
