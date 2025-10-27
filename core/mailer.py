@@ -77,6 +77,7 @@ def send_email_with_attachments(sender_email, sender_password, receiver_email, s
             server.send_message(msg)
 
         print("✅ Email with attachments sent successfully!")
+        logger.info(f"Email sent to {receiver_email}with Attachment | Subject: {subject}")
 
     except smtplib.SMTPAuthenticationError:
         print("❌ Authentication failed! Check your app password.")
