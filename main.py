@@ -72,8 +72,8 @@ def sending_with_files():
 
         send_email_with_attachments(sender, password, receiver, subject, text, html, attachments)
 
-if __name__ == "__main__":
-    main()
-    # basic_email_sender()
-    sending_with_files()
+# if __name__ == "__main__":
+#     main()
+#     # basic_email_sender()
+#     sending_with_files()
     
