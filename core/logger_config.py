@@ -14,5 +14,7 @@ LOG_FILE = os.path.join(LOG_DIR, "app.log")
 logger = logging.getLogger("PyMailLogger")
 logger.setLevel(logging.INFO)
 
+
+# Create a rotating file handler logger ( New file daily, backup for 7 days.)
 handler = TimedRotatingFileHandler(LOG_FILE, when="midnight", interval=1, backupCount=7, encoding="utf-8")
 handler.suffix = "%Y-%m-%d"
