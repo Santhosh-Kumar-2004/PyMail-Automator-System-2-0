@@ -18,3 +18,5 @@ logger.setLevel(logging.INFO)
 # Create a rotating file handler logger ( New file daily, backup for 7 days.)
 handler = TimedRotatingFileHandler(LOG_FILE, when="midnight", interval=1, backupCount=7, encoding="utf-8")
 handler.suffix = "%Y-%m-%d"
+
+# Created the log format using Formatter.
