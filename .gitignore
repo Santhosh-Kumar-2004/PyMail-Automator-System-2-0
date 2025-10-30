@@ -19,3 +19,7 @@ data/sent_history.csv
 .vscode/
 .DS_Store
 Thumbs.db
+
+# data files with real user info
+data/recipients.csv
+data/sent_history.csv
