@@ -9,7 +9,10 @@ EMAIL_PATTERN = r"^[\w\.-]+@[\w\.-]+\.\w+$"
 def load_recipients(
     csv_path="data/recipients.csv"
 ):
-    """Read and validate recipient emails from CSV."""
+    """
+    Read and validate recipient emails from CSV.
+    """
+    
     if not os.path.exists(csv_path):
         logger.error(f"❌ Recipients file not found at: {csv_path}")
         return []
