@@ -103,3 +103,14 @@ def loopy_email_sender():
 
     # Read recipients from CSV
     recipients = load_recipients(csv_path)
+
+    subject = "Special Announcement from PyMail Automator 🚀"
+    text_template = "Hi {name},\nThis is a personalized test email!"
+    html_template = """
+    <html>
+        <body>
+            <h2 style="color:blue;">Hello {name},</h2>
+            <p>This is a <b>personalized</b> HTML email from PyMail Automator. Be happy to connect with the future!</p>
+        </body>
+    </html>
+    """
