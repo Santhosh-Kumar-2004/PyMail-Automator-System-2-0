@@ -33,7 +33,7 @@ def send_basic_email(sender_email, sender_password, receiver_email, subject, pla
         print("❌ Authentication failed! Check your app password.")
         logger.error("SMTP Authentication failed — invalid credentials.")
 
-    except Exception as e: #this prints if there is any other type of error
+    except Exception as e: #this prints if there is any other type of error with the error message
         print(f"❌ Email sending failed: {e}")
         logger.error(f"Unexpected error while sending email: {e}")
         
