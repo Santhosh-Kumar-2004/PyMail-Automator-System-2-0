@@ -139,3 +139,7 @@ def loopy_email_sender():
         time.sleep(delay)
 
     print("✅ All emails in a loopy format processed successfully!")
+
+if __name__ == "__main__":
+    main()
+    loopy_email_sender()
