@@ -7,7 +7,7 @@ from core.logger_config import logger
 EMAIL_PATTERN = r"^[\w\.-]+@[\w\.-]+\.\w+$"
 
 def load_recipients(
-    csv_path="data/recipients_sample.csv"
+    csv_path="data/recipients.csv"
 ):
     """
     Read and validate recipient emails from CSV.
