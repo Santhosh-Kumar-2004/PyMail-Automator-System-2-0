@@ -118,3 +118,6 @@ def loopy_email_sender():
     for recipient in recipients:
         name = recipient["name"]
         email = recipient["email"]
+
+        text = text_template.format(name=name)
+        html = html_template.format(name=name)
