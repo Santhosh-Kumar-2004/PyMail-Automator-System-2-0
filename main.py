@@ -89,13 +89,14 @@ def sending_with_files():
 #     # basic_email_sender()
 #     sending_with_files()
 
-
-if __name__ == "__main__":
-    recipients = load_recipients()
-    print("Loaded recipients:", recipients)
+def loading_recipients():
+    if __name__ == "__main__":
+        recipients = load_recipients()
+        print("Loaded recipients:", recipients)
 
 if __name__ == "__main__":
     main()
+    # loading_recipients()
 
 def loopy_email_sender():
     print("🚀 PyMail Automator - Bulk Email Sending Phase...")
