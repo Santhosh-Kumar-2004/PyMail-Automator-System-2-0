@@ -92,4 +92,7 @@ if __name__ == "__main__":
 
 if __name__ == "__main__":
     main()
+
+def loopy_email_sender():
+    print("🚀 PyMail Automator - Bulk Email Sending Phase...")
     
