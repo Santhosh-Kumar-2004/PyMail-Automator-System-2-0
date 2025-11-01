@@ -102,4 +102,4 @@ def loopy_email_sender():
     csv_path = "data/recipients.csv"
 
     # Read recipients from CSV
-    recipients = read_recipients(csv_path)
+    recipients = load_recipients(csv_path)
