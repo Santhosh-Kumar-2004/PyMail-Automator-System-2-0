@@ -41,7 +41,7 @@ def basic_email_sender():
 
 if __name__ == "__main__":
     main()
-    basic_email_sender()
+    # basic_email_sender()
     # sending_with_files()
 
 
@@ -85,4 +85,7 @@ def sending_with_files():
 if __name__ == "__main__":
     recipients = load_recipients()
     print("Loaded recipients:", recipients)
+
+if __name__ == "__main__":
+    main()
     
