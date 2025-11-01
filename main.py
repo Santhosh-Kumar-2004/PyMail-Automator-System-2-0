@@ -129,6 +129,7 @@ def loopy_email_sender():
         try:
             send_basic_email(sender, password, email, subject, text, html)
             logger.info(f"Email sent successfully to {name} ({email}) ✅")
+            print(f"Email sent successfully to {name}")
 
         except Exception as e:
             logger.error(f"Failed to send email to {name} ({email}) ❌ | Error: {e}")
