@@ -136,3 +136,5 @@ def loopy_email_sender():
         delay = random.uniform(3, 7)
         logger.info(f"⏳ Waiting {delay:.2f} seconds before next email...")
         time.sleep(delay)
+
+    print("✅ All emails in a loopy format processed successfully!")
