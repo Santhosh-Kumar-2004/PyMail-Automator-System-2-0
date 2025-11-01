@@ -6,9 +6,12 @@ import os
 from core.mailer import send_basic_email
 from core.mailer import send_email_with_attachments
 from core.csv_reader import load_recipients
-# from core.csv_reader import 
+# from core.csv_reader import \
+from core.logger_config import logger
 
 load_dotenv()
+
+# logger = get_logger(__name__)
 
 # sample root function which shows the python runnning state
 def main(): # basic main func
@@ -121,3 +124,15 @@ def loopy_email_sender():
 
         text = text_template.format(name=name)
         html = html_template.format(name=name)
+
+        try:
+            send_basic_email(sender, password, email, subject, text, html)
+            logger.info(f"Email sent successfully to {name} ({email}) ✅")
+
+        except Exception as e:
+            logger.error(f"Failed to send email to {name} ({email}) ❌ | Error: {e}")
+
+        # Random delay between 3–7 seconds
+        delay = random.uniform(3, 7)
+        logger.info(f"⏳ Waiting {delay:.2f} seconds before next email...")
+        time.sleep(delay)
