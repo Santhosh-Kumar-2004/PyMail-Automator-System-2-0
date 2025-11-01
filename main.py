@@ -120,6 +120,7 @@ def loopy_email_sender():
     """
 
     for recipient in recipients:
+        s_no = recipient["sno"]
         name = recipient["name"]
         email = recipient["email"]
 
