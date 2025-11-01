@@ -22,11 +22,12 @@ def load_recipients(
         valid_recipients = []
 
         for _, row in df.iterrows():
+            s_no = int(row.get("sno", "").strip())
             name = str(row.get("name", "")).strip()
             email = str(row.get("email", "")).strip()
 
             if re.match(EMAIL_PATTERN, email):
-                valid_recipients.append({"name": name, "email": email})
+                valid_recipients.append({"s_no": s_no, "name": name, "email": email})
             else:
                 logger.warning(f"⚠️ Invalid email skipped: {email}")
 
