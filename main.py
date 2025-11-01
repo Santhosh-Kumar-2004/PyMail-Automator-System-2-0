@@ -80,4 +80,9 @@ def sending_with_files():
 #     main()
 #     # basic_email_sender()
 #     sending_with_files()
+
+
+if __name__ == "__main__":
+    recipients = load_recipients()
+    print("Loaded recipients:", recipients)
     
