@@ -1,7 +1,7 @@
 # 📧 PyMail Automator
 
 **PyMail Automator System** is an advanced **Email Automation System** built entirely with **Python**.  
-It can send personalized, templated, and scheduled emails in bulk with attachments, logging, and a simple GUI.
+It can send personalized, templated, and scheduled emails in bulk with attachments, logging, and a simple GUI.(The GUI is Simple)
 
 ---
 
