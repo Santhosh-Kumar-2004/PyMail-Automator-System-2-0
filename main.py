@@ -39,7 +39,8 @@ def basic_email_sender():
 
         send_basic_email(sender, password, receiver, subject, text, html)
 
-# if __name__ == "__main__":
+# Helps to run the first basic function
+# if __name__ == "__main__": 
 #     main()
     # basic_email_sender()
     # sending_with_files()
@@ -76,6 +77,7 @@ def sending_with_files():
 
         send_email_with_attachments(sender, password, receiver, subject, text, html, attachments)
 
+#
 # if __name__ == "__main__":
 #     main()
 #     # basic_email_sender()
