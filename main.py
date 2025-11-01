@@ -96,3 +96,6 @@ if __name__ == "__main__":
 def loopy_email_sender():
     print("🚀 PyMail Automator - Bulk Email Sending Phase...")
     
+    sender = os.getenv("SENDER_EMAIL")
+    password = os.getenv("SENDER_PASSWORD")
+    csv_path = "data/recipients.csv"
