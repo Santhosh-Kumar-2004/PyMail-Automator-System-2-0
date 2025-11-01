@@ -129,7 +129,7 @@ def loopy_email_sender():
         try:
             send_basic_email(sender, password, email, subject, text, html)
             logger.info(f"Email sent successfully to {name} ({email}) ✅")
-            print(f"Email sent successfully to {name}")
+            print(f"Email sent successfully to {name} ({email}) ✅ ")
 
         except Exception as e:
             logger.error(f"Failed to send email to {name} ({email}) ❌ | Error: {e}")
@@ -137,6 +137,7 @@ def loopy_email_sender():
         # Random delay between 3–7 seconds
         delay = random.uniform(3, 7)
         logger.info(f"⏳ Waiting {delay:.2f} seconds before next email...")
+        print(f"⏳ Waiting {delay:.2f} seconds before next email...")
         time.sleep(delay)
 
     print("✅ All emails in a loopy format processed successfully!")
