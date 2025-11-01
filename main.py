@@ -114,3 +114,7 @@ def loopy_email_sender():
         </body>
     </html>
     """
+
+    for recipient in recipients:
+        name = recipient["name"]
+        email = recipient["email"]
