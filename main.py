@@ -6,6 +6,7 @@ import os
 from core.mailer import send_basic_email
 from core.mailer import send_email_with_attachments
 from core.csv_reader import load_recipients
+# from core.csv_reader import 
 
 load_dotenv()
 
@@ -99,3 +100,6 @@ def loopy_email_sender():
     sender = os.getenv("SENDER_EMAIL")
     password = os.getenv("SENDER_PASSWORD")
     csv_path = "data/recipients.csv"
+
+    # Read recipients from CSV
+    recipients = read_recipients(csv_path)
