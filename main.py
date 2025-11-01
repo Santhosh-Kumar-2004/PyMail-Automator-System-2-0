@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 import os
 from core.mailer import send_basic_email
 from core.mailer import send_email_with_attachments
+from core.csv_reader import load_recipients
 
 load_dotenv()
 
