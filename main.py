@@ -1,4 +1,6 @@
 # Main File
+import time
+import random
 from dotenv import load_dotenv
 import os
 from core.mailer import send_basic_email
