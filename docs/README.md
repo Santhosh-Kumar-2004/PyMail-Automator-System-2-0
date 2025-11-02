@@ -13,7 +13,7 @@ It can send personalized, templated, and scheduled emails in bulk with attachmen
 - Detailed logging system
 - Schedule emails using **Schedule**
 - Simple and elegant **Tkinter GUI**
-- Optional enhancements like retry, history tracking, and progress bar
+- Optional enhancements like retry, history tracking, and progress bar(This will be interesting)
 
 ---
 
